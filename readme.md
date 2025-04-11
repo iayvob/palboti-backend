@@ -2,7 +2,7 @@
 
 # Palboti Backend
 
-**A robust and scalable backend for Palboti, handling secure user authentication, email verification, and efficient data management to power a seamless learning and interaction experience.**
+**A robust and scalable backend for Palboti, handling secure user authentication, and efficient data management to power a seamless learning and interaction experience.**
 
 ---
 
