@@ -93,6 +93,11 @@ export const envSchema = z.object({
   EMAIL_USER: stringNonEmpty().email(),
   EMAIL_PASS: stringNonEmpty(),
 
+  // MQTT & HiveMQ
+  MQTT_BROKER_URL: stringNonEmpty(),
+  MQTT_USERNAME: stringNonEmpty(),
+  MQTT_PASSWORD: stringNonEmpty(),
+
   // Cookies Options Configurations
   COOKIE_MAX_AGE: z.preprocess(
     (x) => (x ? Number(x) : undefined),

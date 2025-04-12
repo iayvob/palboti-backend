@@ -67,6 +67,7 @@
     "libphonenumber-js": "^1.11.20",
     "mongodb": "5.5",
     "morgan": "^1.10.0",
+    "mqtt": "^5.11.0",
     "multer": "^1.4.5-lts.1",
     "node-notifier": "^10.0.1",
     "nodemailer": "^6.10.0",
