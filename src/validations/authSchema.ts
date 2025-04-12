@@ -25,9 +25,6 @@ export const loginSchema = {
   body: z.object({
     email: z.string().min(1, { message: "Identifier is required" }),
     password: z.string().optional(),
-    image: z.string().optional(),
-    dontRememberMe: z.boolean().default(false),
-    method: z.enum(['normal', 'google']),
   }),
 };
 
